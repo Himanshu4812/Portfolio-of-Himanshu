@@ -4,20 +4,29 @@ import { ExternalLink, Github, SquareTerminal } from 'lucide-react';
 const projects = [
   {
     title: 'QuizMaster AI App',
-    description: 'AI-powered quiz application using OpenTDB API. Features dynamic quizzes, score tracking, and a highly responsive UI.',
-    tech: ['HTML', 'CSS', 'JavaScript', 'OpenTDB API'],
+    description: 'An intelligent AI-powered quiz platform for teachers and students with anti-cheating and performance analytics.',
+    tech: ['React', 'TypeScript', 'Tailwind CSS', 'OpenRouter API', 'Context API'],
     live: 'https://quizmaster-ai-app.vercel.app/',
-    github: '#',
+    github: 'https://github.com/Himanshu4812/QuizMaster-AI',
     image: 'https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?q=80&w=800&auto=format&fit=crop',
     status: 'completed'
   },
   {
     title: 'FitTrack Pro',
     description: 'Premium AI fitness tracking web app. Includes workout tracking, body metrics visualization, and AI-driven fitness advice.',
-    tech: ['MongoDB', 'Express', 'React', 'Node.js'],
-    live: 'https://fitnesstracker-b1lz.onrender.com/#/login',
-    github: '#',
+    tech: ['React', 'TypeScript', 'Node.js', 'Express', 'MongoDB', 'Recharts', 'Gemini API'],
+    live: 'https://fitnesstracker-b1lz.onrender.com',
+    github: 'https://github.com/Himanshu4812/FitnessTracker',
     image: 'https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=800&auto=format&fit=crop',
+    status: 'completed'
+  },
+  {
+    title: 'Taste of China Restaurant',
+    description: 'A Modern Restaurant website for "Taste of China", located in Bhubaneswar to improve digital presence and customer engagement.',
+    tech: ['React', 'React', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    live: 'https://taste-of-china-restaurant.onrender.com/',
+    github: 'https://github.com/Himanshu4812/Taste_of_China_Restaurant',
+    image: 'https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=800&auto=format&fit=crop',
     status: 'completed'
   },
   {
