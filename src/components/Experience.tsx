@@ -42,6 +42,7 @@ const Experience = () => {
                 </li>
               </ul>
             </div>
+            <br></br>
             <div className="bg-dark-card p-6 rounded-lg border border-gray-800 hover:border-neon-green transition-colors group">
               <h3 className="text-xl font-bold text-white mb-1">Full Stack Developer Intern</h3>
               <h4 className="text-neon-cyan font-mono text-sm mb-4">Unified Mentor Pvt Ltd</h4>
