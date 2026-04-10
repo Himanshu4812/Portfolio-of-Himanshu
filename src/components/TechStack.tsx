@@ -1,13 +1,16 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Code2, Database, Server, Layout, FileJson, GitBranch, MonitorSmartphone, Palette, Cpu } from 'lucide-react';
+import { Code2, Database, Worm, Globe, Leaf, Server, Atom, FileJson, GitBranch, MonitorSmartphone, Palette, Cpu } from 'lucide-react';
 
 const skills = [
-  { name: 'React.js', icon: <Layout />, color: 'text-[#61DAFB]', border: 'group-hover:border-[#61DAFB]' },
+  { name: 'React.js', icon: <Atom />, color: 'text-[#61DAFB]', border: 'group-hover:border-[#61DAFB]' },
   { name: 'Node.js', icon: <Server />, color: 'text-[#339933]', border: 'group-hover:border-[#339933]' },
   { name: 'Express.js', icon: <Cpu />, color: 'text-gray-300', border: 'group-hover:border-gray-300' },
-  { name: 'MongoDB', icon: <Database />, color: 'text-[#47A248]', border: 'group-hover:border-[#47A248]' },
+  { name: 'MongoDB', icon: <Leaf />, color: 'text-[#47A248]', border: 'group-hover:border-[#47A248]' },
+  { name: 'MySQL', icon: <Database />, color: 'text-[#F29111]', border: 'group-hover:border-[#F29111]' },
   { name: 'JavaScript', icon: <FileJson />, color: 'text-[#F7DF1E]', border: 'group-hover:border-[#F7DF1E]' },
+  { name: 'Postman', icon: <Globe />, color: 'text-[#FF6C37]', border: 'group-hover:border-[#FF6C37]' },
+  { name: 'Python', icon: <Worm />, color: 'text-[#F7DF1E]', border: 'group-hover:border-[#F7DF1E]' },
   { name: 'Tailwind CSS', icon: <Palette />, color: 'text-[#06B6D4]', border: 'group-hover:border-[#06B6D4]' },
   { name: 'HTML5', icon: <Code2 />, color: 'text-[#E34F26]', border: 'group-hover:border-[#E34F26]' },
   { name: 'CSS3', icon: <MonitorSmartphone />, color: 'text-[#1572B6]', border: 'group-hover:border-[#1572B6]' },
